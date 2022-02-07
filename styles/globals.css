@@ -48,10 +48,6 @@ a {
   grid-template-columns: 1fr auto auto;
 }
 
-.mx-width {
-  max-width: 1000px;
-}
-
 .fsr {
   z-index: 0;
   position: absolute;
