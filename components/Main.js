@@ -4,7 +4,7 @@
 export default function Main() {
   return (
     <>
-      <main className="grid gap-5 min-h-screen mr-auto ml-auto max-w-[1000px]">
+      <main className="grid gap-5 mr-auto ml-auto max-w-[1000px]">
         <div className="grid min-h-[810px] place-items-center">
           <div className="absolute overflow-hidden border-boxw-100 z-0 m-0 p-0 w-full hidden lg:block">
             <span>
@@ -36,7 +36,7 @@ export default function Main() {
             </a>
           </div>
         </div>
-        <div className="mr-auto ml-auto mt-12 mb-20">
+        <div className="mr-auto ml-auto mt-12 mb-20 z-10">
           <div className="text-center">
             <p className="Basier-Regular text-xl font-bold leading-[10px] text-[#77828c]">
               Everyday essentials
@@ -50,7 +50,7 @@ export default function Main() {
             </p>
           </div>
         </div>
-        <a href="/" className="pb-12 lg:px-0 px-4 ">
+        <a href="/" className="pb-12 lg:px-0 px-4 z-10">
           <img
             src="/images/Payments.png"
             alt="Payments"
