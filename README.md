@@ -1,6 +1,6 @@
 <div align="center">
 <h1 align="center">Revolut</h1> 
-Clone of Revolut.com using Tailwind CSS v3
+Clone of revolut.com using Tailwind CSS v3
 <br></br>
 <img src="./img/hero.png"></img>
 </div>
