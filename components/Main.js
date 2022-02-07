@@ -21,7 +21,7 @@ export default function Main() {
             className="h-full w-full lg:hidden block"
           />
           <div className="z-10 mr-auto ml-auto max-h-[800px] min-h-[400px] gap-6 w-[640px] text-center">
-            <h1 className="Basier-SemiBold text-5xl lg:text-8xl font-bold leading-[30px] lg:leading-[104px]">
+            <h1 className="Basier-SemiBold text-[#191c1f] text-5xl lg:text-8xl font-bold leading-[30px] lg:leading-[104px]">
               One app, all things money
             </h1>
             <p className="text-2xl lg:text-xl font-semibold whitespace-pre-wrap py-2 lg:py-6">
@@ -29,7 +29,7 @@ export default function Main() {
               your account in a flash
             </p>
             <a
-              className="inline-flex items-center py-[6px] px-4 font-medium text-white rounded-[10px] bg-black"
+              className="inline-flex items-center py-[6px] px-4 font-medium text-white rounded-[10px] bg-[#191c1f]"
               href="/"
             >
               <span className="justify-center">Get a free account</span>
