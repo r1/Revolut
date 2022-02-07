@@ -1,10 +1,9 @@
 <div align="center">
 <h1 align="center">Revolut</h1> 
-Clone of revolut.com using Tailwind CSS v3
+Tech Stack: Next.js & Tailwind CSS v3
 <br></br>
 <img src="./img/hero.png"></img>
 </div>
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
