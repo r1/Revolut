@@ -6,14 +6,8 @@ export default function Main() {
     <>
       <main className="grid gap-5 mr-auto ml-auto max-w-[1000px]">
         <div className="grid min-h-[810px] place-items-center">
-          <div className="absolute overflow-hidden border-boxw-100 z-0 m-0 p-0 w-full hidden lg:block">
-            <span>
-              <img
-                src="/images/Hero.jpeg"
-                alt="Hero"
-                className="h-full w-full"
-              />
-            </span>
+          <div className="absolute overflow-hidden border-box w-100 z-0 m-0 p-0 w-full hidden lg:block pt-14">
+            <img src="/images/Hero.jpeg" alt="Hero" className="h-full w-full"/>
           </div>
           <img
             src="/images/Hero_Mobile.png"
@@ -24,7 +18,7 @@ export default function Main() {
             <h1 className="Basier-SemiBold text-[#191c1f] text-5xl lg:text-8xl font-bold leading-[30px] lg:leading-[104px]">
               One app, all things money
             </h1>
-            <p className="text-2xl lg:text-xl font-semibold whitespace-pre-wrap py-2 lg:py-6">
+            <p className="text-[#292c2f] text-2xl lg:text-xl font-semibold whitespace-pre-wrap py-2 lg:py-6">
               From easy money management, to travel perks and investments. Open
               your account in a flash
             </p>

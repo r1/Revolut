@@ -48,13 +48,3 @@ a {
   grid-template-columns: 1fr auto auto;
 }
 
-.fsr {
-  z-index: 0;
-  position: absolute;
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-  overflow: hidden;
-}
-
