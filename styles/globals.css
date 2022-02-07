@@ -1,16 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: BasierCircle-Regular;
+  src: url(/fonts/BasierCircle-Regular.woff2);
+}
+
+@font-face {
+  font-family: BasierCircle-SemiBold;
+  src: url(/fonts/BasierCircle-SemiBold.woff2);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f3f4f5;
 }
-
+ 
 a {
   color: inherit;
   text-decoration: none;
+
 }
 
 * {
   box-sizing: border-box;
 }
+
+.Basier-Regular {
+  font-family: BasierCircle-Regular;
+}
+
+.Basier-SemiBold {
+  font-family: BasierCircle-SemiBold;
+}
+
+.bg-blur {
+  backdrop-filter: blur(16px);
+  background-color: rgba(241, 242, 244, 0.8);
+}
+
+.grid-tm {
+  grid-template-columns: 1fr auto auto;
+}
+
+.mx-width {
+  max-width: 1000px;
+}
+
+.fsr {
+  z-index: 0;
+  position: absolute;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  overflow: hidden;
+}
+
