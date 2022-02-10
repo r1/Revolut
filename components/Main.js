@@ -1,13 +1,11 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @next/next/no-img-element */
-import Header from "./Header";
 
 export default function Main() {
   return (
     <main className="grid gap-5 mx-auto max-w-[1000px]">
-      <Header />
-      <div className="grid min-h-[810px] place-items-center">
-        <div className="absolute overflow-hidden border-box w-100 z-0 m-0 p-0 w-full hidden lg:block pt-14">
+      <div className="grid max-h-[700px] lg:min-h-[810px] max-w-[1000px] place-items-center mb-4">
+        <div className="absolute overflow-hidden border-box w-100 z-0 m-0 p-0 w-full hidden lg:block mt-14">
           <img src="/images/Hero.jpeg" alt="Hero" className="h-full w-full" />
         </div>
         <div className="inline-flex items-center">
@@ -17,12 +15,13 @@ export default function Main() {
             className="h-full w-full lg:hidden block"
           />
         </div>
-        <div className="z-10 mx-auto max-h-[200px] min-h-[550px] gap-6 text-center">
-          <div className="Basier-SemiBold text-[#191c1f] text-4xl lg:text-8xl font-bold ">
+        <div className="z-10 mx-auto max-h-[300px] lg:min-h-[550px] gap-6 text-center">
+          <div className="Basier-SemiBold text-[#191c1f] text-4xl lg:text-8xl font-bold">
             One app, all <br /> things money
           </div>
           <p className="text-[#292c2f] text-sm lg:text-xl font-semibold whitespace-pre-wrap py-4 lg:py-6">
-            From easy money management, to travel perks and investments. <br />
+            From easy money management, to travel perks and investments.{" "}
+            <br className="hidden lg:block" />
             Open your account in a flash
           </p>
           <a
@@ -33,15 +32,15 @@ export default function Main() {
           </a>
         </div>
       </div>
-      <div className="mx-auto mb-20 z-10">
+      <div className="mx-auto mt-20 lg:mt-0 mb-6 lg:mb-20 z-10 px-10 ">
         <div className="text-center">
-          <p className="Basier-Regular text-xl font-bold text-[#77828c]">
+          <p className="Basier-Regular text-md lg:text-xl font-bold text-[#77828c] mb-4">
             Everyday essentials
           </p>
-          <p className="Basier-SemiBold text-6xl font-bold">
+          <p className="Basier-SemiBold text-4xl lg:text-6xl font-bold mb-4">
             Send, spend and save smarter
           </p>
-          <p className="text-xl font-semibold text-[#1f2225]">
+          <p className="text-md lg:text-xl font-semibold text-[#1f2225]">
             Make day-to-day spending a breeze with all things money in one place
           </p>
         </div>
@@ -88,15 +87,15 @@ export default function Main() {
           />
         </a>
       </div>
-      <div className="mx-auto mt-48 mb-12 z-10">
+      <div className="mx-auto mt-20 lg:mt-0 mb-6 lg:mb-20 z-10 px-10 ">
         <div className="text-center">
-          <p className="Basier-Regular text-xl font-bold text-[#77828c]">
+          <p className="Basier-Regular text-md lg:text-xl font-bold text-[#77828c] mb-4">
             Investments
           </p>
-          <p className="Basier-SemiBold text-6xl font-bold">
+          <p className="Basier-SemiBold text-4xl lg:text-6xl font-bold mb-4">
             Investments from just $1
           </p>
-          <p className="text-xl font-semibold text-[#1f2225]">
+          <p className="text-md lg:text-xl font-semibold text-[#1f2225]">
             Create your portfolio and start trading with just a few taps.
             Capital at risk
           </p>
@@ -121,15 +120,15 @@ export default function Main() {
           />
         </a>
       </div>
-      <div className="mx-auto mt-48 mb-12 z-10">
+      <div className="mx-auto mt-20 lg:mt-0 mb-6 lg:mb-20 z-10 px-10 ">
         <div className="text-center">
-          <p className="Basier-Regular text-xl font-bold text-[#77828c]">
+          <p className="Basier-Regular text-md lg:text-xl font-bold text-[#77828c] mb-4">
             Travel
           </p>
-          <p className="Basier-SemiBold text-6xl font-bold">
+          <p className="Basier-SemiBold text-4xl lg:text-6xl font-bold mb-4">
             All your travel needs, sorted
           </p>
-          <p className="text-xl font-semibold text-[#1f2225]">
+          <p className="text-md lg:text-xl font-semibold text-[#1f2225]">
             Travel card? Check. Insurance? Covered. Hotels? Say no more. We’re
             building you a connected trip
           </p>
@@ -154,15 +153,15 @@ export default function Main() {
           />
         </a>
       </div>
-      <div className="mx-auto mt-48 mb-12 z-10">
+      <div className="mx-auto mt-20 lg:mt-0 mb-6 lg:mb-20 z-10 px-10 ">
         <div className="text-center">
-          <p className="Basier-Regular text-xl font-bold text-[#77828c]">
+          <p className="Basier-Regular text-md lg:text-xl font-bold text-[#77828c] mb-4">
             Lifestyle
           </p>
-          <p className="Basier-SemiBold text-6xl font-bold">
+          <p className="Basier-SemiBold text-4xl lg:text-6xl font-bold mb-4">
             Get a little more in life with Revolut
           </p>
-          <p className="text-xl font-semibold text-[#1f2225]">
+          <p className="text-md lg:text-xl font-semibold text-[#1f2225]">
             Let us take care of all the added extras, from donations to gifts
             <br />
             for friends and so much more
@@ -181,15 +180,15 @@ export default function Main() {
           />
         </a>
       </div>
-      <div className="mx-auto mt-48 mb-12 z-10">
+      <div className="mx-auto mt-20 lg:mt-0 mb-6 lg:mb-20 z-10 px-10 ">
         <div className="text-center">
-          <p className="Basier-Regular text-xl font-bold text-[#77828c]">
+          <p className="Basier-Regular text-md lg:text-xl font-bold text-[#77828c] mb-4">
             Security
           </p>
-          <p className="Basier-SemiBold text-6xl font-bold">
+          <p className="Basier-SemiBold text-4xl lg:text-6xl font-bold mb-4">
             End-to-end security
           </p>
-          <p className="text-xl font-semibold text-[#1f2225]">
+          <p className="text-md lg:text-xl font-semibold text-[#1f2225]">
             Get peace of mind with our strong security systems and trusted
             partners
           </p>
