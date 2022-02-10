@@ -45,14 +45,14 @@ export default function Main() {
           </p>
         </div>
       </div>
-      <a href="/" className="lg:px-0 px-4 z-10">
+      <a href="/" className="lg:px-0 px-4 z-10 hidden lg:block">
         <img
           src="/images/Payments.png"
           alt="Payments"
           className="rounded-2xl"
         />
       </a>
-      <div className="grid grid-cols-2 gap-5">
+      <div className="lg:grid grid-cols-2 gap-5 hidden">
         <a href="/" className="lg:px-0 px-4 z-10">
           <img
             src="/images/SavingsVault.png"
@@ -68,10 +68,10 @@ export default function Main() {
           />
         </a>
       </div>
-      <a href="/" className="lg:px-0 px-4 z-10">
+      <a href="/" className="lg:px-0 px-4 z-10 hidden lg:block">
         <img src="/images/Cards.png" alt="Payments" className="rounded-2xl" />
       </a>
-      <div className="grid grid-cols-2 gap-5">
+      <div className="lg:grid grid-cols-2 gap-5 hidden">
         <a href="/" className="lg:px-0 px-4 z-10">
           <img
             src="/images/OpenBanking.png"
@@ -101,10 +101,10 @@ export default function Main() {
           </p>
         </div>
       </div>
-      <a href="/" className="lg:px-0 px-4 z-10">
+      <a href="/" className="lg:px-0 px-4 z-10 hidden lg:block">
         <img src="/images/Crypto.png" alt="Payments" className="rounded-2xl" />
       </a>
-      <div className="grid grid-cols-2 gap-5">
+      <div className="lg:grid grid-cols-2 gap-5 hidden">
         <a href="/" className="lg:px-0 px-4 z-10">
           <img
             src="/images/Stocks.jpeg"
@@ -134,10 +134,10 @@ export default function Main() {
           </p>
         </div>
       </div>
-      <a href="/" className="lg:px-0 px-4 z-10">
+      <a href="/" className="lg:px-0 px-4 z-10 hidden lg:block">
         <img src="/images/Stays.png" alt="Payments" className="rounded-2xl" />
       </a>
-      <div className="grid grid-cols-2 gap-5">
+      <div className="lg:grid grid-cols-2 gap-5 hidden">
         <a href="/" className="lg:px-0 px-4 z-10">
           <img
             src="/images/Currencies_Small.jpeg"
@@ -168,7 +168,7 @@ export default function Main() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-5">
+      <div className="lg:grid grid-cols-2 gap-5 hidden">
         <a href="/" className="lg:px-0 px-4 z-10">
           <img src="/images/Gifts.png" alt="Payments" className="rounded-2xl" />
         </a>
