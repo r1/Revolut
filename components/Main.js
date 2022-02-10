@@ -32,7 +32,7 @@ export default function Main() {
           </a>
         </div>
       </div>
-      <div className="mx-auto mt-20 lg:mt-0 mb-6 lg:mb-20 z-10 px-10 lg:px-0">
+      <div className="mx-auto mt-20 lg:mt-4 mb-6 lg:mb-20 z-10 px-10 lg:px-0">
         <div className="text-center">
           <p className="Basier-Regular text-md lg:text-xl font-bold text-[#77828c] mb-4">
             Everyday essentials
