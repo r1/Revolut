@@ -1,57 +1,200 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @next/next/no-img-element */
+import Header from "./Header";
 
 export default function Main() {
   return (
-    <>
-      <main className="grid gap-5 mr-auto ml-auto max-w-[1000px]">
-        <div className="grid min-h-[810px] place-items-center">
-          <div className="absolute overflow-hidden border-box w-100 z-0 m-0 p-0 w-full hidden lg:block pt-14">
-            <img src="/images/Hero.jpeg" alt="Hero" className="h-full w-full"/>
-          </div>
+    <main className="grid gap-5 mx-auto max-w-[1000px]">
+      <Header />
+      <div className="grid min-h-[810px] place-items-center">
+        <div className="absolute overflow-hidden border-box w-100 z-0 m-0 p-0 w-full hidden lg:block pt-14">
+          <img src="/images/Hero.jpeg" alt="Hero" className="h-full w-full" />
+        </div>
+        <div className="inline-flex items-center">
           <img
             src="/images/Hero_Mobile.png"
             alt="Hero"
             className="h-full w-full lg:hidden block"
           />
-          <div className="z-10 mr-auto ml-auto max-h-[800px] min-h-[400px] gap-6 w-[640px] text-center">
-            <h1 className="Basier-SemiBold text-[#191c1f] text-5xl lg:text-8xl font-bold leading-[30px] lg:leading-[104px]">
-              One app, all things money
-            </h1>
-            <p className="text-[#292c2f] text-2xl lg:text-xl font-semibold whitespace-pre-wrap py-2 lg:py-6">
-              From easy money management, to travel perks and investments. Open
-              your account in a flash
-            </p>
-            <a
-              className="inline-flex items-center py-[6px] px-4 font-medium text-white rounded-[10px] bg-[#191c1f]"
-              href="/"
-            >
-              <span className="justify-center">Get a free account</span>
-            </a>
-          </div>
         </div>
-        <div className="mr-auto ml-auto mt-12 mb-20 z-10">
-          <div className="text-center">
-            <p className="Basier-Regular text-xl font-bold leading-[10px] text-[#77828c]">
-              Everyday essentials
-            </p>
-            <p className="Basier-Regular text-6xl font-bold leading-[105px]">
-              Send, spend and save smarter
-            </p>
-            <p className="text-xl font-semibold text-[#1f2225]">
-              Make day-to-day spending a breeze with all things money in one
-              place
-            </p>
+        <div className="z-10 mx-auto max-h-[200px] min-h-[550px] gap-6 text-center">
+          <div className="Basier-SemiBold text-[#191c1f] text-4xl lg:text-8xl font-bold ">
+            One app, all <br /> things money
           </div>
+          <p className="text-[#292c2f] text-sm lg:text-xl font-semibold whitespace-pre-wrap py-4 lg:py-6">
+            From easy money management, to travel perks and investments. <br />
+            Open your account in a flash
+          </p>
+          <a
+            className="inline-flex items-center py-[6px] px-4 font-medium text-white rounded-[10px] bg-[#191c1f]"
+            href="/"
+          >
+            <span className="justify-center">Get a free account</span>
+          </a>
         </div>
-        <a href="/" className="pb-12 lg:px-0 px-4 z-10">
+      </div>
+      <div className="mx-auto mb-20 z-10">
+        <div className="text-center">
+          <p className="Basier-Regular text-xl font-bold text-[#77828c]">
+            Everyday essentials
+          </p>
+          <p className="Basier-SemiBold text-6xl font-bold">
+            Send, spend and save smarter
+          </p>
+          <p className="text-xl font-semibold text-[#1f2225]">
+            Make day-to-day spending a breeze with all things money in one place
+          </p>
+        </div>
+      </div>
+      <a href="/" className="lg:px-0 px-4 z-10">
+        <img
+          src="/images/Payments.png"
+          alt="Payments"
+          className="rounded-2xl"
+        />
+      </a>
+      <div className="grid grid-cols-2 gap-5">
+        <a href="/" className="lg:px-0 px-4 z-10">
           <img
-            src="/images/Payments.png"
+            src="/images/SavingsVault.png"
             alt="Payments"
             className="rounded-2xl"
           />
         </a>
-      </main>
-    </>
+        <a href="/" className="lg:px-0 px-4 z-10">
+          <img
+            src="/images/Rewards.png"
+            alt="Payments"
+            className="rounded-2xl"
+          />
+        </a>
+      </div>
+      <a href="/" className="lg:px-0 px-4 z-10">
+        <img src="/images/Cards.png" alt="Payments" className="rounded-2xl" />
+      </a>
+      <div className="grid grid-cols-2 gap-5">
+        <a href="/" className="lg:px-0 px-4 z-10">
+          <img
+            src="/images/OpenBanking.png"
+            alt="Payments"
+            className="rounded-2xl"
+          />
+        </a>
+        <a href="/" className="lg:px-0 px-4 z-10">
+          <img
+            src="/images/Subscriptions.png"
+            alt="Payments"
+            className="rounded-2xl"
+          />
+        </a>
+      </div>
+      <div className="mx-auto mt-48 mb-12 z-10">
+        <div className="text-center">
+          <p className="Basier-Regular text-xl font-bold text-[#77828c]">
+            Investments
+          </p>
+          <p className="Basier-SemiBold text-6xl font-bold">
+            Investments from just $1
+          </p>
+          <p className="text-xl font-semibold text-[#1f2225]">
+            Create your portfolio and start trading with just a few taps.
+            Capital at risk
+          </p>
+        </div>
+      </div>
+      <a href="/" className="lg:px-0 px-4 z-10">
+        <img src="/images/Crypto.png" alt="Payments" className="rounded-2xl" />
+      </a>
+      <div className="grid grid-cols-2 gap-5">
+        <a href="/" className="lg:px-0 px-4 z-10">
+          <img
+            src="/images/Stocks.jpeg"
+            alt="Payments"
+            className="rounded-2xl"
+          />
+        </a>
+        <a href="/" className="lg:px-0 px-4 z-10">
+          <img
+            src="/images/Commodities.png"
+            alt="Payments"
+            className="rounded-2xl"
+          />
+        </a>
+      </div>
+      <div className="mx-auto mt-48 mb-12 z-10">
+        <div className="text-center">
+          <p className="Basier-Regular text-xl font-bold text-[#77828c]">
+            Travel
+          </p>
+          <p className="Basier-SemiBold text-6xl font-bold">
+            All your travel needs, sorted
+          </p>
+          <p className="text-xl font-semibold text-[#1f2225]">
+            Travel card? Check. Insurance? Covered. Hotels? Say no more. We’re
+            building you a connected trip
+          </p>
+        </div>
+      </div>
+      <a href="/" className="lg:px-0 px-4 z-10">
+        <img src="/images/Stays.png" alt="Payments" className="rounded-2xl" />
+      </a>
+      <div className="grid grid-cols-2 gap-5">
+        <a href="/" className="lg:px-0 px-4 z-10">
+          <img
+            src="/images/Currencies_Small.jpeg"
+            alt="Payments"
+            className="rounded-2xl"
+          />
+        </a>
+        <a href="/" className="lg:px-0 px-4 z-10">
+          <img
+            src="/images/Lounge.png"
+            alt="Payments"
+            className="rounded-2xl"
+          />
+        </a>
+      </div>
+      <div className="mx-auto mt-48 mb-12 z-10">
+        <div className="text-center">
+          <p className="Basier-Regular text-xl font-bold text-[#77828c]">
+            Lifestyle
+          </p>
+          <p className="Basier-SemiBold text-6xl font-bold">
+            Get a little more in life with Revolut
+          </p>
+          <p className="text-xl font-semibold text-[#1f2225]">
+            Let us take care of all the added extras, from donations to gifts
+            <br />
+            for friends and so much more
+          </p>
+        </div>
+      </div>
+      <div className="grid grid-cols-2 gap-5">
+        <a href="/" className="lg:px-0 px-4 z-10">
+          <img src="/images/Gifts.png" alt="Payments" className="rounded-2xl" />
+        </a>
+        <a href="/" className="lg:px-0 px-4 z-10">
+          <img
+            src="/images/Donations.png"
+            alt="Payments"
+            className="rounded-2xl"
+          />
+        </a>
+      </div>
+      <div className="mx-auto mt-48 mb-12 z-10">
+        <div className="text-center">
+          <p className="Basier-Regular text-xl font-bold text-[#77828c]">
+            Security
+          </p>
+          <p className="Basier-SemiBold text-6xl font-bold">
+            End-to-end security
+          </p>
+          <p className="text-xl font-semibold text-[#1f2225]">
+            Get peace of mind with our strong security systems and trusted
+            partners
+          </p>
+        </div>
+      </div>
+    </main>
   );
 }

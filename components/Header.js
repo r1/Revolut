@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 w-full z-30 border-b-[1px] bg-blur ">
+    <header className="sticky top-0 z-30 border-b-[1px] bg-blur w-full">
       <div className="py-[16px] flex relative justify-between w-full mr-auto ml-auto max-w-[1000px]">
         <a className="pt-1 pl-6 md:pl-4 lg:pl-0" href="/">
           <svg xmlns="http://www.w3.org/2000/svg" height="25" width="106">
