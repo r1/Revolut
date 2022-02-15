@@ -19,12 +19,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #f3f4f5;
+  width: 100%;
+  height: 100%;
 }
- 
+
 a {
   color: inherit;
   text-decoration: none;
-
 }
 
 * {
@@ -46,4 +47,20 @@ a {
 
 .grid-tm {
   grid-template-columns: 1fr auto auto;
+}
+
+.bg {
+  background-color: #191c1f;
+  position: relative;
+  display: grid;
+}
+
+.bg:before {
+  content: "";
+  background-color: #191c1f;
+  position: absolute;
+  height: 100%;
+  width: 175.62vw;
+  left: -100vw;
+  z-index: -1;
 }
