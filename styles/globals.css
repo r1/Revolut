@@ -32,35 +32,35 @@ a {
   box-sizing: border-box;
 }
 
-.Basier-Regular {
+.basier-regular {
   font-family: BasierCircle-Regular;
 }
 
-.Basier-SemiBold {
+.basier-semibold {
   font-family: BasierCircle-SemiBold;
 }
 
-.bg-blur {
-  backdrop-filter: blur(16px);
-  background-color: rgba(241, 242, 244, 0.8);
+.fas {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://assets.revolut.com/assets/flags/GB.svg);
+  box-shadow: rgb(122 122 122 / 15%) 0px 0px 0px 1px inset;
 }
 
-.grid-tm {
-  grid-template-columns: 1fr auto auto;
+.fa {
+  grid-area: 1 / 3 / auto / auto;
 }
 
-.bg {
-  background-color: #191c1f;
-  position: relative;
-  display: grid;
+.ff {
+      box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font: inherit;
+    display: flex;
 }
 
-.bg:before {
-  content: "";
-  background-color: #191c1f;
-  position: absolute;
-  height: 100%;
-  width: 175.62vw;
-  left: -100vw;
-  z-index: -1;
+
+.fsa {
+  transition: all 0.15s ease 0s;
 }

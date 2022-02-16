@@ -23,7 +23,7 @@ export default function Main() {
               />
             </div>
             <div className="z-10 mx-auto max-h-[300px] gap-6 text-center lg:min-h-[550px]">
-              <div className="Basier-SemiBold text-4xl font-bold text-[#191c1f] lg:text-8xl">
+              <div className="basier-semibold text-4xl font-bold text-[#191c1f] lg:text-8xl">
                 One app, all <br /> things money
               </div>
               <p className="whitespace-pre-wrap py-4 px-4 text-sm font-semibold text-[#292c2f] lg:px-0 lg:py-6 lg:text-xl">
@@ -39,12 +39,12 @@ export default function Main() {
               </a>
             </div>
           </div>
-          <div className="z-10 mx-auto mt-20 mb-6 px-4 lg:mt-4 lg:mb-20 lg:px-0">
+          <div className="z-10 mx-auto mt-20 mb-6 px-4 lg:mt-6 lg:mb-20 lg:px-0">
             <div className="text-center">
-              <p className="Basier-Regular text-md mb-4 font-bold text-[#77828c] lg:text-xl">
+              <p className="basier-regular text-md mb-4 font-bold text-[#77828c] lg:text-xl">
                 Everyday essentials
               </p>
-              <p className="Basier-SemiBold mb-4 text-4xl font-bold lg:text-6xl">
+              <p className="basier-semibold mb-4 text-4xl font-bold lg:text-6xl">
                 Send, spend and save smarter
               </p>
               <p className="text-md font-semibold text-[#1f2225] lg:text-xl">
@@ -139,10 +139,10 @@ export default function Main() {
           </a>
           <div className="z-10 mx-auto mt-20 mb-6 px-4 lg:mt-44 lg:mb-20 lg:px-0">
             <div className="text-center">
-              <p className="Basier-Regular text-md mb-5 font-bold text-[#77828c] lg:text-xl">
+              <p className="basier-regular text-md mb-5 font-bold text-[#77828c] lg:text-xl">
                 Investments
               </p>
-              <p className="Basier-SemiBold mb-6 text-4xl font-bold lg:text-6xl">
+              <p className="basier-semibold mb-6 text-4xl font-bold lg:text-6xl">
                 Investments from just $1
               </p>
               <p className="text-md font-semibold text-[#1f2225] lg:text-xl">
@@ -197,10 +197,10 @@ export default function Main() {
           </a>
           <div className="z-10 mx-auto mt-20 mb-6 px-4 lg:mt-44 lg:mb-20 lg:px-0">
             <div className="text-center">
-              <p className="Basier-Regular text-md mb-5 font-bold text-[#77828c] lg:text-xl">
+              <p className="basier-regular text-md mb-5 font-bold text-[#77828c] lg:text-xl">
                 Travel
               </p>
-              <p className="Basier-SemiBold mb-6 text-4xl font-bold lg:text-6xl">
+              <p className="basier-semibold mb-6 text-4xl font-bold lg:text-6xl">
                 All your travel needs, sorted
               </p>
               <p className="text-md font-semibold text-[#1f2225] lg:text-xl">
@@ -255,10 +255,10 @@ export default function Main() {
           </a>
           <div className="z-10 mx-auto mt-20 mb-6 px-4 lg:mt-44 lg:mb-20 lg:px-0">
             <div className="text-center">
-              <p className="Basier-Regular text-md mb-5 font-bold text-[#77828c] lg:text-xl">
+              <p className="basier-regular text-md mb-5 font-bold text-[#77828c] lg:text-xl">
                 Lifestyle
               </p>
-              <p className="Basier-SemiBold mb-6 text-4xl font-bold lg:text-6xl">
+              <p className="basier-semibold mb-6 text-4xl font-bold lg:text-6xl">
                 Get a little more in life with Revolut
               </p>
               <p className="text-md font-semibold text-[#1f2225] lg:text-xl">
@@ -301,10 +301,10 @@ export default function Main() {
           </a>
           <div className="z-10 mx-auto mt-20 mb-6 px-4 lg:mt-44 lg:mb-20 lg:px-0">
             <div className="text-center">
-              <p className="Basier-Regular text-md mb-5 font-bold text-[#77828c] lg:text-xl">
+              <p className="basier-regular text-md mb-5 font-bold text-[#77828c] lg:text-xl">
                 Security
               </p>
-              <p className="Basier-SemiBold mb-6 text-4xl font-bold lg:text-6xl">
+              <p className="basier-semibold mb-6 text-4xl font-bold lg:text-6xl">
                 End-to-end security
               </p>
               <p className="text-md font-semibold text-[#1f2225] lg:text-xl">
@@ -329,7 +329,7 @@ export default function Main() {
           </a>
           <div className="z-10 mx-auto mt-20 mb-6 px-4 lg:mt-44 lg:mb-32 lg:px-0">
             <div className="text-center">
-              <p className="Basier-SemiBold mb-8 text-4xl font-bold lg:text-6xl">
+              <p className="basier-semibold mb-8 text-4xl font-bold lg:text-6xl">
                 Join 18M people who already trust us with their money
               </p>
               <a
