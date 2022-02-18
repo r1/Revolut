@@ -6,8 +6,8 @@ export default function Main() {
   return (
     <>
       <main className="mx-auto grid w-full">
-        <div className="mx-auto mt-16 grid max-w-[1000px] gap-6">
-          <div className="mb-4 grid max-h-[700px] max-w-[1000px] place-items-center lg:min-h-[810px]">
+        <div className="mx-auto mt-16 min-h-[1000px] grid max-w-[1000px] gap-6">
+          <div className="mb-4 grid min-h-[1000px] max-h-[700px] max-w-[1000px] place-items-center lg:min-h-[810px]">
             <div className="border-box w-100 absolute z-0 m-0 mt-14 hidden w-full overflow-hidden p-0 lg:block">
               <img
                 src="/images/Hero.jpeg"
@@ -389,7 +389,6 @@ export default function Main() {
               </div>
             </a>
           </div>
-
           <div className="hidden grid-cols-2 gap-0 md:grid lg:gap-5">
             <a
               href="/"
@@ -468,7 +467,6 @@ export default function Main() {
               </div>
             </a>
           </div>
-
           <div className="block md:hidden">
             <a
               href="/"

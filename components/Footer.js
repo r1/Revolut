@@ -472,42 +472,138 @@ export default function Footer() {
             </div>
           </div>
           <div className="mx-4 my-6 block md:hidden">
-            <div className="basier-regular list-none space-y-3 text-[12px] text-[#ffffffcc]">
+            <div className="basier-regular space-y-3 text-[12px] text-[#ffffffcc]">
               <div className="flex justify-between">
                 <div>Invest</div>
-                <svg viewBox="0 0 16 16" size="16" aria-label="Invest" className="w-4 h-4"><g fill="currentColor"><path fill="currentColor" d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"></path></g></svg>
+                <svg
+                  viewBox="0 0 16 16"
+                  size="16"
+                  aria-label="Invest"
+                  className="h-4 w-4"
+                >
+                  <g fill="currentColor">
+                    <path
+                      fill="currentColor"
+                      d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"
+                    ></path>
+                  </g>
+                </svg>
               </div>
               <div className="flex justify-between">
                 <div>Insurance</div>
-                <svg viewBox="0 0 16 16" size="16" aria-label="Insurance" className="w-4 h-4"><g fill="currentColor"><path fill="currentColor" d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"></path></g></svg>
+                <svg
+                  viewBox="0 0 16 16"
+                  size="16"
+                  aria-label="Insurance"
+                  className="h-4 w-4"
+                >
+                  <g fill="currentColor">
+                    <path
+                      fill="currentColor"
+                      d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"
+                    ></path>
+                  </g>
+                </svg>
               </div>
               <div className="flex justify-between">
                 <div>Security</div>
-                <svg viewBox="0 0 16 16" size="16" aria-label="Security" className="w-4 h-4"><g fill="currentColor"><path fill="currentColor" d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"></path></g></svg>
+                <svg
+                  viewBox="0 0 16 16"
+                  size="16"
+                  aria-label="Security"
+                  className="h-4 w-4"
+                >
+                  <g fill="currentColor">
+                    <path
+                      fill="currentColor"
+                      d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"
+                    ></path>
+                  </g>
+                </svg>
               </div>
               <div className="flex justify-between">
                 <div>Travel</div>
-                <svg viewBox="0 0 16 16" size="16" aria-label="Travel" className="w-4 h-4"><g fill="currentColor"><path fill="currentColor" d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"></path></g></svg>
+                <svg
+                  viewBox="0 0 16 16"
+                  size="16"
+                  aria-label="Travel"
+                  className="h-4 w-4"
+                >
+                  <g fill="currentColor">
+                    <path
+                      fill="currentColor"
+                      d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"
+                    ></path>
+                  </g>
+                </svg>
               </div>
               <div className="flex justify-between">
                 <div>Help</div>
-                <svg viewBox="0 0 16 16" size="16" aria-label="Help" className="w-4 h-4"><g fill="currentColor"><path fill="currentColor" d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"></path></g></svg>
+                <svg
+                  viewBox="0 0 16 16"
+                  size="16"
+                  aria-label="Help"
+                  className="h-4 w-4"
+                >
+                  <g fill="currentColor">
+                    <path
+                      fill="currentColor"
+                      d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"
+                    ></path>
+                  </g>
+                </svg>
               </div>
               <div className="flex justify-between">
                 <div>Plans</div>
-                <svg viewBox="0 0 16 16" size="16" aria-label="Plans" className="w-4 h-4"><g fill="currentColor"><path fill="currentColor" d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"></path></g></svg>
+                <svg
+                  viewBox="0 0 16 16"
+                  size="16"
+                  aria-label="Plans"
+                  className="h-4 w-4"
+                >
+                  <g fill="currentColor">
+                    <path
+                      fill="currentColor"
+                      d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"
+                    ></path>
+                  </g>
+                </svg>
               </div>
               <div className="flex justify-between">
                 <div>Company</div>
-                <svg viewBox="0 0 16 16" size="16" aria-label="Company" className="w-4 h-4"><g fill="currentColor"><path fill="currentColor" d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"></path></g></svg>
+                <svg
+                  viewBox="0 0 16 16"
+                  size="16"
+                  aria-label="Company"
+                  className="h-4 w-4"
+                >
+                  <g fill="currentColor">
+                    <path
+                      fill="currentColor"
+                      d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"
+                    ></path>
+                  </g>
+                </svg>
               </div>
               <div className="flex justify-between">
                 <div>Follow</div>
-                <svg viewBox="0 0 16 16" size="16" aria-label="Follow" className="w-4 h-4"><g fill="currentColor"><path fill="currentColor" d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"></path></g></svg>
+                <svg
+                  viewBox="0 0 16 16"
+                  size="16"
+                  aria-label="Follow"
+                  className="h-4 w-4"
+                >
+                  <g fill="currentColor">
+                    <path
+                      fill="currentColor"
+                      d="M12.35 6.488a.7.7 0 0 1 0 .99l-3.01 3.01a1.9 1.9 0 0 1-2.688-.002L3.65 7.479a.7.7 0 0 1 0-.99l.284-.283a.7.7 0 0 1 .99.001l3.002 3.007a.1.1 0 0 0 .141 0l3.01-3.009a.7.7 0 0 1 .99 0l.282.283Z"
+                    ></path>
+                  </g>
+                </svg>
               </div>
             </div>
           </div>
-          <div className="mx-4 lg:px-0">
+          <div className="px-4 lg:px-0 inline-block">
             <a href="/" className="inline-block hover:text-white">
               <span className="flex items-center text-[12px] text-[#ffffff99] transition hover:text-white">
                 <img
@@ -518,7 +614,7 @@ export default function Footer() {
                 United Kingdom
               </span>
             </a>
-            <ul className="flex list-none flex-wrap pb-4 pt-1 pr-2 lg:pt-3">
+            <ul className="flex list-none flex-wrap pb-4 pt-1 pr-2 lg:pt-3 ">
               <li>
                 <a
                   href="/"
