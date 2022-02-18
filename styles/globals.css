@@ -39,11 +39,3 @@ a {
 .basier-semibold {
   font-family: BasierCircle-SemiBold;
 }
-
-.fas {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(https://assets.revolut.com/assets/flags/GB.svg);
-  box-shadow: rgb(122 122 122 / 15%) 0px 0px 0px 1px inset;
-}

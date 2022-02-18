@@ -608,7 +608,7 @@ export default function Footer() {
               <span className="flex items-center text-[12px] text-[#ffffff99] transition hover:text-white">
                 <img
                   src="https://assets.revolut.com/assets/flags/GB.svg"
-                  alt="User profile"
+                  alt="Flags"
                   className="mr-2 inline-block h-5 w-5 lg:mr-3"
                 />
                 United Kingdom

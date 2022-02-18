@@ -6,8 +6,8 @@ export default function Main() {
   return (
     <>
       <main className="mx-auto grid w-full">
-        <div className="mx-auto mt-16 min-h-[1000px] grid max-w-[1000px] gap-6">
-          <div className="mb-4 grid min-h-[1000px] max-h-[700px] max-w-[1000px] place-items-center lg:min-h-[810px]">
+        <div className="mx-auto mt-16 grid max-w-[1000px] gap-6">
+          <div className="mb-4 grid max-h-[700px] max-w-[1000px] place-items-center lg:min-h-[810px]">
             <div className="border-box w-100 absolute z-0 m-0 mt-14 hidden w-full overflow-hidden p-0 lg:block">
               <img
                 src="/images/Hero.jpeg"
@@ -53,7 +53,7 @@ export default function Main() {
               </p>
             </div>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden min-h-[500px] md:block">
             <a
               href="/"
               className="relative z-10 hidden overflow-hidden rounded-lg px-4 md:block lg:px-0"
@@ -655,7 +655,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="hidden grid-cols-2 gap-0 md:grid lg:gap-5">
+          <div className="hidden grid-cols-2 gap-0 md:grid lg:gap-5 min-h-[400px]">
             <a
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
@@ -711,7 +711,7 @@ export default function Main() {
               />
               <div className="absolute top-0 left-0 flex h-full flex-col py-4">
                 <h2 className="basier-semibold mt-4 px-9 text-xl text-[36px] font-semibold leading-[35px] tracking-tight text-black lg:leading-[45px]">
-                  Capital at risk, not FCA regulated
+                  Buy gold and silver instantly in-app
                 </h2>
                 <p className="px-9 pt-2 text-[20px] font-semibold leading-normal text-black">
                   Capital at risk, not FCA regulated
