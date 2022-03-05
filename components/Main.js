@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <>
       <main className="mx-auto grid w-full">
-        <div className="relative mx-auto mt-16 grid max-w-[1000px] gap-6">
+        <div className="mx-auto mt-16 grid max-w-[1000px] gap-6">
           <div className="mb-4 grid max-h-[700px] max-w-[1000px] place-items-center lg:min-h-[810px]">
             <div className="border-box w-100 absolute z-0 m-0 mt-14 hidden w-full overflow-hidden p-0 lg:block">
               <img
@@ -72,10 +72,7 @@ export default function Main() {
                   anyone in 30+ countries
                 </p>
                 <div className="mt-auto pb-8">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb]"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb]">
                     <span className="justify-center">
                       Explore easy payments
                       <svg
@@ -92,7 +89,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -116,10 +113,7 @@ export default function Main() {
                   anyone in 30+ countries
                 </p>
                 <div className="pl-5 pb-8 pt-4">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb]"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb]">
                     <span className="justify-center">
                       Explore easy payments
                       <svg
@@ -136,7 +130,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -156,10 +150,7 @@ export default function Main() {
                   Earn up to 0.7% annual interest, paid daily
                 </h2>
                 <div className="mt-auto pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Start saving
                       <svg
@@ -176,7 +167,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -194,10 +185,7 @@ export default function Main() {
                   Get exclusive Rewards and save as you spend
                 </h2>
                 <div className="mt-auto pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Browse cashback & discounts
                       <svg
@@ -214,7 +202,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -234,10 +222,7 @@ export default function Main() {
                   Earn up to 0.7% annual interest, paid daily
                 </h2>
                 <div className="pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Start saving
                       <svg
@@ -254,7 +239,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -274,10 +259,7 @@ export default function Main() {
                   Get exclusive Rewards and save as you spend
                 </h2>
                 <div className="pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Browse cashback & discounts
                       <svg
@@ -294,7 +276,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -319,9 +301,8 @@ export default function Main() {
                   spending straight away with Google or Apple Pay
                 </p>
                 <div className="mt-auto pb-8">
-                  <a
+                  <span
                     className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[21px] font-semibold text-white hover:bg-[#0666eb]"
-                    href="/"
                   >
                     <span className="justify-center">
                       Get a card
@@ -339,7 +320,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -364,10 +345,7 @@ export default function Main() {
                   spending straight away with Google or Apple Pay
                 </p>
                 <div className="pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Get a card
                       <svg
@@ -384,7 +362,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -404,10 +382,7 @@ export default function Main() {
                   All your accounts, all in one place
                 </h2>
                 <div className="mt-auto pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Discover Open Banking
                       <svg
@@ -424,7 +399,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -442,10 +417,7 @@ export default function Main() {
                   No more unwanted subscriptions
                 </h2>
                 <div className="mt-auto pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Explore Subscriptions
                       <svg
@@ -462,7 +434,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -482,10 +454,7 @@ export default function Main() {
                   All your accounts, all in one place
                 </h2>
                 <div className="pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Discover Open Banking
                       <svg
@@ -502,7 +471,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -522,10 +491,7 @@ export default function Main() {
                   No more unwanted subscriptions
                 </h2>
                 <div className="pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Explore Subscriptions
                       <svg
@@ -542,7 +508,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -583,10 +549,7 @@ export default function Main() {
                   Capital at risk, not FCA regulated
                 </p>
                 <div className="mt-auto pb-8">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb]"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb]">
                     <span className="justify-center">
                       Get started with Crypto
                       <svg
@@ -603,7 +566,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -630,10 +593,7 @@ export default function Main() {
                   Capital at risk, not FCA regulated
                 </p>
                 <div className="pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Get started with Crypto
                       <svg
@@ -650,7 +610,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -676,10 +636,7 @@ export default function Main() {
                   Capital at risk
                 </p>
                 <div className="mt-auto pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Explore Stock trading
                       <svg
@@ -696,7 +653,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -717,10 +674,7 @@ export default function Main() {
                   Capital at risk, not FCA regulated
                 </p>
                 <div className="mt-auto pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Discover Open Banking
                       <svg
@@ -737,7 +691,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -763,10 +717,7 @@ export default function Main() {
                   Capital at risk, not FCA regulated
                 </p>
                 <div className="pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Explore Stock trading
                       <svg
@@ -783,7 +734,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -806,10 +757,7 @@ export default function Main() {
                   Capital at risk, not FCA regulated
                 </p>
                 <div className="pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Get started with Crypto
                       <svg
@@ -826,7 +774,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -864,10 +812,7 @@ export default function Main() {
                   around the world and get up to 10% cashback
                 </p>
                 <div className="mt-auto pb-8">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb]"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb]">
                     <span className="justify-center">
                       Discover Stays
                       <svg
@@ -884,7 +829,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -908,10 +853,7 @@ export default function Main() {
                   around the world and get up to 10% cashback
                 </p>
                 <div className="pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Get started with Crypto
                       <svg
@@ -928,7 +870,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -948,10 +890,7 @@ export default function Main() {
                   Spend abroad like a local at the real exchange rate
                 </h2>
                 <div className="mt-auto pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Explore FX
                       <svg
@@ -968,7 +907,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -986,10 +925,7 @@ export default function Main() {
                   Travel in style with lounge passes for less
                 </h2>
                 <div className="mt-auto pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Get started
                       <svg
@@ -1006,7 +942,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -1026,10 +962,7 @@ export default function Main() {
                   Spend abroad like a local at the real exchange rate
                 </h2>
                 <div className="pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Explore FX
                       <svg
@@ -1046,7 +979,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -1066,10 +999,7 @@ export default function Main() {
                   Travel in style with lounge passes for less
                 </h2>
                 <div className="pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Get started
                       <svg
@@ -1086,7 +1016,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -1122,10 +1052,7 @@ export default function Main() {
                   Share the love with Revolut gifting
                 </h2>
                 <div className="mt-auto pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Spread some love
                       <svg
@@ -1142,7 +1069,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -1160,10 +1087,7 @@ export default function Main() {
                   Donate to causes you care about with a tap
                 </h2>
                 <div className="mt-auto pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Try Donations
                       <svg
@@ -1180,7 +1104,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -1200,10 +1124,7 @@ export default function Main() {
                   Share the love with Revolut gifting
                 </h2>
                 <div className="pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Spread some love
                       <svg
@@ -1220,7 +1141,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -1240,10 +1161,7 @@ export default function Main() {
                   Donate to causes you care about with a tap
                 </h2>
                 <div className="pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-[#0666eb] hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       Try Donations
                       <svg
@@ -1260,7 +1178,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -1300,10 +1218,7 @@ export default function Main() {
                   services compensation scheme (FSCS)
                 </p>
                 <div className="mt-auto pb-8">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb]"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb]">
                     <span className="justify-center">
                       More about security
                       <svg
@@ -1320,7 +1235,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
@@ -1346,10 +1261,7 @@ export default function Main() {
                   services compensation scheme (FSCS)
                 </p>
                 <div className="pl-5 pb-8 pt-2">
-                  <a
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white"
-                    href="/"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white">
                     <span className="justify-center">
                       More about security
                       <svg
@@ -1366,7 +1278,7 @@ export default function Main() {
                         </g>
                       </svg>
                     </span>
-                  </a>
+                  </span>
                 </div>
               </div>
             </a>
