@@ -301,9 +301,7 @@ export default function Main() {
                   spending straight away with Google or Apple Pay
                 </p>
                 <div className="mt-auto pb-8">
-                  <span
-                    className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[21px] font-semibold text-white hover:bg-[#0666eb]"
-                  >
+                  <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[21px] font-semibold text-white hover:bg-[#0666eb]">
                     <span className="justify-center">
                       Get a card
                       <svg
