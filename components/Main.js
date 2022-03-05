@@ -28,7 +28,7 @@ export default function Main() {
               </div>
               <p className="whitespace-pre-wrap py-4 px-4 text-sm font-semibold text-[#292c2f] lg:px-0 lg:py-6 lg:text-xl">
                 From easy money management, to travel perks and investments.{" "}
-                <br className="hidden md:block" />
+                <br className="relative hidden md:block" />
                 Open your account in a flash
               </p>
               <a
@@ -97,7 +97,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
@@ -108,7 +108,7 @@ export default function Main() {
                 alt="Payments"
               />
               <div className="absolute top-0 left-0 flex h-full flex-col py-4">
-                <h2 className="basier-semibold mt-4 px-9 text-xl text-[24px] font-semibold leading-[45px] tracking-tight text-white">
+                <h2 className="basier-semibold mt-4 px-9 text-xl text-[24px] font-semibold leading-[25px] tracking-tight text-white">
                   Pay and get paid, hassle-free
                 </h2>
                 <p className="px-9 text-[16px] leading-normal text-gray-100">
@@ -141,7 +141,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="hidden grid-cols-2 gap-0 md:grid lg:gap-5">
+          <div className="relative hidden grid-cols-2 gap-0 md:grid lg:gap-5">
             <a
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
@@ -219,7 +219,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
@@ -259,7 +259,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
@@ -299,7 +299,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="hidden md:block">
+          <div className="relative hidden md:block">
             <a
               href="/"
               className="relative z-10 hidden overflow-hidden rounded-lg px-4 md:block lg:px-0"
@@ -344,7 +344,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
@@ -389,7 +389,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="hidden grid-cols-2 gap-0 md:grid lg:gap-5">
+          <div className="relative hidden grid-cols-2 gap-0 md:grid lg:gap-5">
             <a
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
@@ -467,7 +467,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
@@ -507,7 +507,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
@@ -561,7 +561,7 @@ export default function Main() {
               </p>
             </div>
           </div>
-          <div className="hidden md:block">
+          <div className="relative hidden md:block">
             <a
               href="/"
               className="relative z-10 hidden overflow-hidden rounded-lg px-4 md:block lg:px-0"
@@ -608,7 +608,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
@@ -655,7 +655,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="hidden grid-cols-2 gap-0 md:grid lg:gap-5 min-h-[400px]">
+          <div className="hidden min-h-[400px] grid-cols-2 gap-0 md:grid lg:gap-5">
             <a
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
@@ -742,7 +742,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
@@ -788,7 +788,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
@@ -845,7 +845,7 @@ export default function Main() {
               </p>
             </div>
           </div>
-          <div className="hidden md:block">
+          <div className="relative hidden md:block">
             <a
               href="/"
               className="relative z-10 hidden overflow-hidden rounded-lg px-4 md:block lg:px-0"
@@ -889,7 +889,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
@@ -933,7 +933,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="hidden grid-cols-2 gap-0 md:grid lg:gap-5">
+          <div className="relative hidden grid-cols-2 gap-0 md:grid lg:gap-5">
             <a
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
@@ -1011,7 +1011,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
@@ -1051,7 +1051,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
@@ -1107,7 +1107,7 @@ export default function Main() {
               </p>
             </div>
           </div>
-          <div className="hidden grid-cols-2 gap-0 md:grid lg:gap-5">
+          <div className="relative hidden grid-cols-2 gap-0 md:grid lg:gap-5">
             <a
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
@@ -1185,7 +1185,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
@@ -1225,7 +1225,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
@@ -1279,7 +1279,7 @@ export default function Main() {
               </p>
             </div>
           </div>
-          <div className="hidden md:block">
+          <div className="relative hidden md:block">
             <a
               href="/"
               className="relative z-10 hidden overflow-hidden rounded-lg px-4 md:block lg:px-0"
@@ -1325,7 +1325,7 @@ export default function Main() {
               </div>
             </a>
           </div>
-          <div className="block md:hidden">
+          <div className="relative block md:hidden">
             <a
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
