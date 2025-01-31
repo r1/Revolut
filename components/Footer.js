@@ -25,9 +25,9 @@ export default function Footer() {
                 Free
               </h3>
               <span className="text-[12px] text-[#75808a] lg:text-[14px]">
-                Whether you're looking to save money spending abroad or sticking
+                Whether you're looking to save ##### spending abroad or sticking
                 to your budget with our built-in budgeting, get more from your
-                money with our Standard account
+                ##### with our Standard account
               </span>
               <div className="absolute bottom-0 right-0 mb-4 mr-5 text-[#75808a]">
                 <svg viewBox="0 0 24 24" size="24" className="h-6 w-6">
@@ -51,7 +51,7 @@ export default function Footer() {
                 £2.99/month
               </h3>
               <span className="text-[12px] text-[#75808a] lg:text-[14px]">
-                Give your everyday finances a boost. Get more out of your money
+                Give your everyday finances a boost. Get more out of your #####
                 for less than the cost of a coffee
               </span>
               <div className="absolute bottom-0 right-0 mb-4 mr-5 text-[#75808a]">
@@ -101,7 +101,7 @@ export default function Footer() {
                 £12.99/month
               </h3>
               <span className="text-[12px] text-[#75808a] lg:text-[14px]">
-                Unlock your money's potential. Make your money work for you with
+                Unlock your #####'s potential. Make your ##### work for you with
                 0.7% interest paid daily on savings, cashback, low-fee crypto
                 and much more
               </span>
@@ -681,7 +681,7 @@ export default function Footer() {
             receive services from, or if you have any other questions, please
             reach out to us via the in-app chat in the ##### app. ##### Ltd
             (No. 00000) is authorised by the Financial Conduct Authority
-            under the Electronic Money Regulations 2011 (Firm Reference 0000000).
+            under the Electronic ##### Regulations 2011 (Firm Reference 0000000).
             Registered address: 7 Westferry Circus, Canary Wharf, London,
             England, E14 4HD. Insurance related-products are arranged by #####
             Travel Ltd which is authorised by the Financial Conduct Authority to
@@ -695,7 +695,7 @@ export default function Footer() {
           </p>
           <p className="px-4 text-[12px] text-[#ffffff4d] lg:px-0">
             #####'s cryptocurrency service is not regulated by the FCA, other
-            than for the purposes of money laundering. ##### Ltd has been
+            than for the purposes of ##### laundering. ##### Ltd has been
             temporarily registered with the FCA as a cryptoasset business until
             31 March 2022, pending determination of its application by the FCA.
           </p>

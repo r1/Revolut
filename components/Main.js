@@ -24,10 +24,10 @@ export default function Main() {
             </div>
             <div className="z-10 mx-auto max-h-[300px] gap-6 text-center lg:min-h-[550px]">
               <div className="basier-semibold text-4xl font-bold text-[#191c1f] lg:text-8xl">
-                One app, all <br /> things money
+                One app, all <br /> things #####
               </div>
               <p className="whitespace-pre-wrap py-4 px-4 text-sm font-semibold text-[#292c2f] lg:px-0 lg:py-6 lg:text-xl">
-                From easy money management, to travel perks and investments.{" "}
+                From easy ##### management, to travel perks and investments.{" "}
                 <br className="relative hidden md:block" />
                 Open your account in a flash
               </p>
@@ -48,7 +48,7 @@ export default function Main() {
                 Send, spend and save smarter
               </p>
               <p className="text-md font-semibold text-[#1f2225] lg:text-xl">
-                Make day-to-day spending a breeze with all things money in one
+                Make day-to-day spending a breeze with all things ##### in one
                 place
               </p>
             </div>
@@ -68,7 +68,7 @@ export default function Main() {
                   Pay and get paid, hassle-free
                 </h2>
                 <p className="text-[20px] font-semibold leading-normal text-gray-100">
-                  Send and request money with a tap, split bills easily with
+                  Send and request ##### with a tap, split bills easily with
                   anyone in 30+ countries
                 </p>
                 <div className="mt-auto pb-8">
@@ -109,7 +109,7 @@ export default function Main() {
                   Pay and get paid, hassle-free
                 </h2>
                 <p className="px-9 text-[16px] leading-normal text-gray-100">
-                  Send and request money with a tap, split bills easily with
+                  Send and request ##### with a tap, split bills easily with
                   anyone in 30+ countries
                 </p>
                 <div className="pl-5 pb-8 pt-4">
@@ -1211,7 +1211,7 @@ export default function Main() {
                 </h2>
                 <p className="text-[20px] font-semibold leading-normal text-white">
                   Our disposable virtual cards allow you to make one-off, secure
-                  payments. And as an e-money institution (EMI), your money is
+                  payments. And as an e-##### institution (EMI), your ##### is
                   protected through safeguarding and not by the financial
                   services compensation scheme (FSCS)
                 </p>
@@ -1254,7 +1254,7 @@ export default function Main() {
                 </h2>
                 <p className="px-9 pt-3 text-[16px] leading-normal text-gray-100">
                   Our disposable virtual cards allow you to make one-off, secure
-                  payments. And as an e-money institution (EMI), your money is
+                  payments. And as an e-##### institution (EMI), your ##### is
                   protected through safeguarding and not by the financial
                   services compensation scheme (FSCS)
                 </p>
@@ -1284,7 +1284,7 @@ export default function Main() {
           <div className="z-10 mx-auto mt-20 mb-6 px-4 lg:mt-44 lg:mb-32 lg:px-0">
             <div className="text-center">
               <p className="basier-semibold mb-8 text-4xl font-bold lg:text-6xl">
-                Join 18M people who already trust us with their money
+                Join 18M people who already trust us with their #####
               </p>
               <div
                 className="inline-flex items-center rounded-[10px] bg-[#191c1f] py-[6px] px-4 font-medium text-white"
