@@ -31,12 +31,12 @@ export default function Main() {
                 <br className="relative hidden md:block" />
                 Open your account in a flash
               </p>
-              <a
+              <div
                 className="inline-flex items-center rounded-[10px] bg-[#191c1f] py-[6px] px-4 font-medium text-white"
                 href="/"
               >
                 <span className="justify-center">Get a free account</span>
-              </a>
+              </div>
             </div>
           </div>
           <div className="z-10 mx-auto mt-20 mb-6 px-4 lg:mt-6 lg:mb-20 lg:px-0">
@@ -54,7 +54,7 @@ export default function Main() {
             </div>
           </div>
           <div className="hidden min-h-[500px] md:block">
-            <a
+            <div
               href="/"
               className="relative z-10 hidden overflow-hidden rounded-lg px-4 md:block lg:px-0"
             >
@@ -92,10 +92,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -133,10 +133,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative hidden grid-cols-2 gap-0 md:grid lg:gap-5">
-            <a
+            <div
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
             >
@@ -170,8 +170,8 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
-            <a
+            </div>
+            <div
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
             >
@@ -205,10 +205,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -242,10 +242,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -279,10 +279,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative hidden md:block">
-            <a
+            <div
               href="/"
               className="relative z-10 hidden overflow-hidden rounded-lg px-4 md:block lg:px-0"
             >
@@ -321,10 +321,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -363,10 +363,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative hidden grid-cols-2 gap-0 md:grid lg:gap-5">
-            <a
+            <div
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
             >
@@ -400,8 +400,8 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
-            <a
+            </div>
+            <div
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
             >
@@ -435,10 +435,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -472,10 +472,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -509,7 +509,7 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="z-10 mx-auto mt-20 mb-6 px-4 lg:mt-44 lg:mb-20 lg:px-0">
             <div className="text-center">
@@ -526,7 +526,7 @@ export default function Main() {
             </div>
           </div>
           <div className="relative hidden md:block">
-            <a
+            <div
               href="/"
               className="relative z-10 hidden overflow-hidden rounded-lg px-4 md:block lg:px-0"
             >
@@ -567,10 +567,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -611,10 +611,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="hidden min-h-[400px] grid-cols-2 gap-0 md:grid lg:gap-5">
-            <a
+            <div
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
             >
@@ -654,8 +654,8 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
-            <a
+            </div>
+            <div
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
             >
@@ -692,10 +692,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -735,10 +735,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -775,7 +775,7 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="z-10 mx-auto mt-20 mb-6 px-4 lg:mt-44 lg:mb-20 lg:px-0">
             <div className="text-center">
@@ -792,7 +792,7 @@ export default function Main() {
             </div>
           </div>
           <div className="relative hidden md:block">
-            <a
+            <div
               href="/"
               className="relative z-10 hidden overflow-hidden rounded-lg px-4 md:block lg:px-0"
             >
@@ -830,10 +830,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -871,10 +871,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative hidden grid-cols-2 gap-0 md:grid lg:gap-5">
-            <a
+            <div
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
             >
@@ -908,8 +908,8 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
-            <a
+            </div>
+            <div
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
             >
@@ -943,10 +943,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -980,10 +980,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -1017,7 +1017,7 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="z-10 mx-auto mt-20 mb-6 px-4 lg:mt-44 lg:mb-20 lg:px-0">
             <div className="text-center">
@@ -1025,7 +1025,7 @@ export default function Main() {
                 Lifestyle
               </p>
               <p className="basier-semibold mb-6 text-4xl font-bold lg:text-6xl">
-                Get a little more in life with Revolut
+                Get a little more in life with #####
               </p>
               <p className="text-md font-semibold text-[#1f2225] lg:text-xl">
                 Let us take care of all the added extras, from donations to
@@ -1036,7 +1036,7 @@ export default function Main() {
             </div>
           </div>
           <div className="relative hidden grid-cols-2 gap-0 md:grid lg:gap-5">
-            <a
+            <div
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
             >
@@ -1047,7 +1047,7 @@ export default function Main() {
               />
               <div className="absolute top-0 left-0 flex h-full flex-col py-4">
                 <h2 className="basier-semibold mt-4 px-9 text-xl text-[36px] font-semibold leading-[35px] tracking-tight text-white lg:leading-[45px]">
-                  Share the love with Revolut gifting
+                  Share the love with ##### gifting
                 </h2>
                 <div className="mt-auto pl-5 pb-8 pt-2">
                   <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[20px] font-semibold text-white hover:bg-[#0666eb] hover:text-white">
@@ -1070,8 +1070,8 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
-            <a
+            </div>
+            <div
               href="/"
               className="relative z-10 overflow-hidden rounded-lg px-4 lg:px-0"
             >
@@ -1105,10 +1105,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -1119,7 +1119,7 @@ export default function Main() {
               />
               <div className="absolute top-0 left-0 flex h-full flex-col py-4">
                 <h2 className="basier-semibold mt-4 px-9 text-xl text-[22px] font-semibold leading-[25px] tracking-tight text-white lg:leading-[45px]">
-                  Share the love with Revolut gifting
+                  Share the love with ##### gifting
                 </h2>
                 <div className="pl-5 pb-8 pt-2">
                   <span className="inline-flex items-center rounded-[55px] py-[6px] px-4 text-[16px] font-semibold text-white hover:bg-[#0666eb] hover:text-white">
@@ -1142,10 +1142,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -1179,7 +1179,7 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="z-10 mx-auto mt-20 mb-6 px-4 lg:mt-44 lg:mb-20 lg:px-0">
             <div className="text-center">
@@ -1196,7 +1196,7 @@ export default function Main() {
             </div>
           </div>
           <div className="relative hidden md:block">
-            <a
+            <div
               href="/"
               className="relative z-10 hidden overflow-hidden rounded-lg px-4 md:block lg:px-0"
             >
@@ -1236,10 +1236,10 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="relative block md:hidden">
-            <a
+            <div
               href="/"
               className="relative z-10 block overflow-hidden rounded-lg px-4 md:hidden lg:px-0"
             >
@@ -1279,19 +1279,19 @@ export default function Main() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="z-10 mx-auto mt-20 mb-6 px-4 lg:mt-44 lg:mb-32 lg:px-0">
             <div className="text-center">
               <p className="basier-semibold mb-8 text-4xl font-bold lg:text-6xl">
                 Join 18M people who already trust us with their money
               </p>
-              <a
+              <div
                 className="inline-flex items-center rounded-[10px] bg-[#191c1f] py-[6px] px-4 font-medium text-white"
                 href="/"
               >
                 <span className="justify-center">Get started</span>
-              </a>
+              </div>
             </div>
           </div>
         </div>

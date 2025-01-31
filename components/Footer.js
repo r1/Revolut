@@ -14,7 +14,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="mx-6 mb-0 grid grid-cols-1 space-y-6 space-x-0 text-[#191c1f] md:grid-cols-4 md:space-x-6 md:space-y-0 lg:mx-0 lg:space-x-8">
-            <a
+            <div
               href="/"
               className="relative rounded-3xl bg-white pt-8 pb-6 pl-4 pr-2 lg:pt-6 lg:pb-8 lg:pl-6 lg:pr-9"
             >
@@ -39,8 +39,8 @@ export default function Footer() {
                   </g>
                 </svg>
               </div>
-            </a>
-            <a
+            </div>
+            <div
               href="/"
               className="relative rounded-3xl bg-white pt-8 pb-6 pl-4 pr-2 lg:pt-6 lg:pb-8 lg:pl-6 lg:pr-9"
             >
@@ -64,8 +64,8 @@ export default function Footer() {
                   </g>
                 </svg>
               </div>
-            </a>
-            <a
+            </div>
+            <div
               href="/"
               className="relative rounded-3xl bg-white pt-8 pb-6 pl-4 pr-2 lg:pt-6 lg:pb-8 lg:pl-6 lg:pr-9"
             >
@@ -89,8 +89,8 @@ export default function Footer() {
                   </g>
                 </svg>
               </div>
-            </a>
-            <a
+            </div>
+            <div
               href="/"
               className="relative rounded-3xl bg-white pt-8 pb-6 pl-4 pr-2 lg:pt-6 lg:pb-8 lg:pl-6 lg:pr-9"
             >
@@ -115,7 +115,7 @@ export default function Footer() {
                   </g>
                 </svg>
               </div>
-            </a>
+            </div>
           </div>
           <div className="z-10 mx-auto mt-6 mb-6 px-8 lg:mt-16 lg:mb-28 lg:px-0">
             <div className="text-center">
@@ -125,12 +125,12 @@ export default function Footer() {
               <p className="basier-semibold mb-10 text-[34px] font-bold text-white lg:text-6xl">
                 Get the only financial super app
               </p>
-              <a
+              <div
                 className="inline-flex items-center rounded-[10px] bg-white py-[6px] px-4 font-medium text-[#191c1f]"
                 href="/"
               >
-                <span className="justify-center">Try Revolut Now</span>
-              </a>
+                <span className="justify-center">Try ##### Now</span>
+              </div>
             </div>
           </div>
           <div className="mb-24 hidden grid-cols-6 gap-4 px-6 md:grid lg:px-0">
@@ -138,193 +138,193 @@ export default function Footer() {
               <h2 className="basier-regular mb-1 text-[12px] text-[#ffffffcc]">
                 Everyday needs
               </h2>
-              <a
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Payments
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Early salary
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 On-Demand Pay
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Cards
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Budgeting and analytics
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Junior
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Open banking
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Pockets
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Rewards
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Subscriptions
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Gifting
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Donations
-              </a>
+              </div>
             </div>
             <div>
               <h2 className="basier-regular mb-1 text-[12px] text-[#ffffffcc]">
                 Invest
               </h2>
-              <a
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Crypto
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Stocks
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Commodities
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Vaults
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Saving vaults
-              </a>
+              </div>
               <h2 className="basier-regular float-left clear-left mt-3 mb-1 text-[12px] text-[#ffffffcc]">
                 Insurance
               </h2>
-              <a
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Pet Insurance
-              </a>
+              </div>
               <h2 className="basier-regular float-left clear-left mt-3 mb-1 text-[12px] text-[#ffffffcc]">
                 Security
               </h2>
-              <a
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Security
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
-                Revolut Shopper
-              </a>
+                ##### Shopper
+              </div>
             </div>
             <div>
               <h2 className="basier-regular mb-1 text-[12px] text-[#ffffffcc]">
                 Travel
               </h2>
-              <a
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 International transfers
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Currency exchange
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Lounge & Smart delay
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Stays
-              </a>
+              </div>
               <h2 className="basier-regular float-left clear-left mt-3 mb-1 text-[12px] text-[#ffffffcc]">
                 Help
               </h2>
-              <a
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Customer help
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 System status
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Community
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Developers API
-              </a>
+              </div>
             </div>
             <div>
               <h2
@@ -333,142 +333,142 @@ export default function Footer() {
               >
                 Plans
               </h2>
-              <a
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Standard
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Plus
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Premium
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Metal
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Compare plans
-              </a>
+              </div>
             </div>
             <div>
               <h2 className="basier-regular mb-1 text-[12px] text-[#ffffffcc]">
                 Company
               </h2>
-              <a
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 About us
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Culture
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Diversity and Inclusion
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Code of conduct
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Careers
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Blog
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 News
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Leadership
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Affiliates
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Influencers
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Contact
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Finacial statements
-              </a>
+              </div>
             </div>
             <div>
               <h2 className="basier-regular mb-1 text-[12px] text-[#ffffffcc]">
                 Follow
               </h2>
-              <a
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Facebook
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Instagram
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Twitter
-              </a>
-              <a
+              </div>
+              <div
                 href="/"
                 className="float-left clear-left mb-1 text-[12px] text-[#ffffff99] transition hover:text-white"
               >
                 Linkedin
-              </a>
+              </div>
             </div>
           </div>
           <div className="mx-4 my-6 block md:hidden">
@@ -604,103 +604,103 @@ export default function Footer() {
             </div>
           </div>
           <div className="px-4 lg:px-0 inline-block">
-            <a href="/" className="inline-block hover:text-white">
+            <div href="/" className="inline-block hover:text-white">
               <span className="flex items-center text-[12px] text-[#ffffff99] transition hover:text-white">
                 <img
-                  src="https://assets.revolut.com/assets/flags/GB.svg"
+                  src="https://assets.#####.com/assets/flags/GB.svg"
                   alt="Flags"
                   className="mr-2 inline-block h-5 w-5 lg:mr-3"
                 />
                 United Kingdom
               </span>
-            </a>
+            </div>
             <ul className="flex list-none flex-wrap pb-4 pt-1 pr-2 lg:pt-3 ">
               <li>
-                <a
+                <div
                   href="/"
                   className="pr-5 text-[12px] text-[#ffffff99] transition hover:text-white"
                 >
                   Website terms
-                </a>
+                </div>
               </li>
               <li>
-                <a
+                <div
                   href="/"
                   className="pr-5 text-[12px] text-[#ffffff99] transition hover:text-white"
                 >
                   Legal Agreements
-                </a>
+                </div>
               </li>
               <li>
-                <a
+                <div
                   href="/"
                   className="pr-5 text-[12px] text-[#ffffff99] transition hover:text-white"
                 >
                   Privacy Policy
-                </a>
+                </div>
               </li>
               <li>
-                <a
+                <div
                   href="/"
                   className="pr-5 text-[12px] text-[#ffffff99] transition hover:text-white"
                 >
                   Complaints
-                </a>
+                </div>
               </li>
               <li>
-                <a
+                <div
                   href="/"
                   className="pr-5 text-[12px] text-[#ffffff99] transition hover:text-white"
                 >
                   Responsible Disclosure Program Policy
-                </a>
+                </div>
               </li>
               <li>
-                <a
+                <div
                   href="/"
                   className="pr-5 text-[12px] text-[#ffffff99] transition hover:text-white"
                 >
                   UK Modern Slavery Policy
-                </a>
+                </div>
               </li>
               <li>
-                <a
+                <div
                   href="/"
                   className="pr-5 text-[12px] text-[#ffffff99] transition hover:text-white"
                 >
                   Customer Vulnerability
-                </a>
+                </div>
               </li>
             </ul>
           </div>
           <p className="px-4 text-[12px] text-[#ffffff4d] lg:px-0">
-            © Revolut Ltd 2022
+            © ##### Ltd 2022
           </p>
           <p className="px-4 text-[12px] text-[#ffffff4d] lg:px-0">
-            If you would like to find out more about which Revolut entity you
+            If you would like to find out more about which ##### entity you
             receive services from, or if you have any other questions, please
-            reach out to us via the in-app chat in the Revolut app. Revolut Ltd
-            (No. 08804411) is authorised by the Financial Conduct Authority
-            under the Electronic Money Regulations 2011 (Firm Reference 900562).
+            reach out to us via the in-app chat in the ##### app. ##### Ltd
+            (No. 00000) is authorised by the Financial Conduct Authority
+            under the Electronic Money Regulations 2011 (Firm Reference 0000000).
             Registered address: 7 Westferry Circus, Canary Wharf, London,
-            England, E14 4HD. Insurance related-products are arranged by Revolut
+            England, E14 4HD. Insurance related-products are arranged by #####
             Travel Ltd which is authorised by the Financial Conduct Authority to
-            undertake insurance distribution activities (FCA No: 780586) and by
-            Revolut Ltd, an Appointed Representative of Revolut Travel Ltd in
+            undertake insurance distribution activities (FCA No: 000000) and by
+            ##### Ltd, an Appointed Representative of ##### Travel Ltd in
             relation to insurance distribution activities. Trading and
-            investment products are provided by Revolut Trading Ltd (No. 832790)
-            is wholly owned subsidiary of Revolut Ltd and is an appointed
+            investment products are provided by ##### Ltd (No. 000000)
+            is wholly owned subsidiary of ##### Ltd and is an appointed
             representative of Resolution Compliance Ltd which is authorised and
             regulated by the Financial Conduct Authority.
           </p>
           <p className="px-4 text-[12px] text-[#ffffff4d] lg:px-0">
-            Revolut's cryptocurrency service is not regulated by the FCA, other
-            than for the purposes of money laundering. Revolut Ltd has been
+            #####'s cryptocurrency service is not regulated by the FCA, other
+            than for the purposes of money laundering. ##### Ltd has been
             temporarily registered with the FCA as a cryptoasset business until
             31 March 2022, pending determination of its application by the FCA.
           </p>
           <p className="mb-8 px-4 text-[12px] text-[#ffffff4d] lg:px-0">
-            Revolut's commodities service is not regulated by the FCA.
+            #####'s commodities service is not regulated by the FCA.
           </p>
         </div>
       </footer>
